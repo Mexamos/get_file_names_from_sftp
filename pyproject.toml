@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "get_file_names_from_sftp"
+version = "0.1.0"
+description = ""
+authors = ["m.tolstikov <m.tolstikov@brandquad.ru>"]
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+paramiko = "^2.9.2"
+openpyxl = "^3.0.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
